@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="IsPasswordBug.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IsPasswordBug">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <!--  Place new controls here  -->
+            <Entry Grid.Row="0" />
+            <Entry Grid.Row="1" IsPassword="True" />
+            <Entry Grid.Row="2" IsPassword="True" />
+        </Grid>
+    </Grid>
+
+</ContentPage>
